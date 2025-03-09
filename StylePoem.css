@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+} 
+
+header {
+    background-image: url(ros.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+
+.contenu {
+    position: relative;
+    left: 60%; /* Ajuste selon tes besoins */
+    top: 30px; 
+}
+
+#h1 pre {
+    font-family: "Lucida Calligraphy", cursive !important;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #FF66B2; /* Ombre noire légère */
+}
+
+#pre {
+    color: #ffffff;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: 2.3vh;
+    text-shadow: 2px 2px 4px #FF66B2; /* Ombre noire légère */
+}
